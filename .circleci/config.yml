@@ -1,0 +1,45 @@
+<script>
+
+var esporte = prompt("qual seu esporte ?");
+var idade = prompt("qual sua idade ? ");
+if(esporte=="futebol"){ 
+    if(idade<20){  
+      alert("sua categoria é sub-20-futebol")
+ }else  if(idade<=39) {
+alert("sua categoria é veterano futebol")
+    } else {
+    alert("sua categoria é veterano-futebol")
+    }  }
+if(esporte=="nataçao"){ 
+     if(idade<13){
+     alert("sua categoria é junior-Natação") 
+    }else if(idade<=16){
+        alert("sua categoria é infanto-juvenil-natação")
+    }else if(idade <=30 ){
+        alert("sua categoria é junior-Natação")
+     } else{ alert("sua categoria é senior-Natação")
+    }
+}
+if(esporte=="surf"){
+    if(idade<=15){ 
+    alert("sua categoria é surf-mirin")
+}else if(idade<=18) {
+     alert("sua categoria é surf-junior")
+}else if(idade<=39){
+    alert("sua categoria surf-open")
+ }else {
+      alert("sua categoria é surf-gran master")
+ } 
+}
+
+if(esporte=="lol"){ 
+    if(idade<13){
+        alert("sua categoria é bronze")
+    }else if(idade<=16){
+            alert("sua categoria é prata")
+        }else{ 
+            alert("sua categoria é ouro")
+        }
+    }
+
+</script>
